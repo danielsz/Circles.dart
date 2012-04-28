@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Circles</title>
+    <style type="text/css">
+    .text {
+      position: absolute;  
+  }
+     #text1 {
+      font: 300 xx-large "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+      display: none;	
+    }
+    #text2 {
+      font: 300 xx-small "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+      height:125px;width:125px;max-height:125px;overflow:hidden;
+   	  display:none;	
+    }
+    a {
+      text-decoration:none;
+      color:black;
+    }
+    body, html { margin: 0px;}
+</style>
+    <script type="application/dart" src="Circles.dart"></script>
+  </head>
+  <body>
+    <canvas id="canvas">
+            <!-- Insert fallback content here -->
+            Sorry, your browser doesn't support canvas technology
+        </canvas>
+         <div class="text" id="text1">
+        <a href="#" id="link">beethoven</a>
+        </div> 
+        <div class="text" id="text2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ligula et enim pharetra rhoncus. Maecenas pharetra suscipit aliquet. Quisque pharetra aliquet neque, sed varius elit egestas ut. Nam a felis eget erat imperdiet malesuada. Sed ut sagittis sem. Curabitur in tortor lorem. Integer bibendum interdum ligula, in tristique augue sagittis sit amet. Sed malesuada porta imperdiet. Fusce a ligula turpis.
+        </div> 
+    <script src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  	<script type="text/javascript">
+  	// window.onresize = Cowboy.debounce(1000,init);
+ 	</script>
+  </body>
+</html>
