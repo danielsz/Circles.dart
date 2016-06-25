@@ -2,7 +2,7 @@ README
 
 This is the Circles demo, a homage to Josef Müller-Brockman, in its DART version.
 
-Click [here](http://danielsz.posterous.com/modernism-and-the-web "Modernism and the Web") for the blog post that explains it all.
+Click [here](http://danielsz.github.io/dart-hackathon-at-the-hub-tel-aviv/index.html "Modernism and the Web") for the blog post that explains it all.
 Click [here](http://danielsz.github.com/Circles/ "Circles demo") for the original demo in pure javascript.
 
 
